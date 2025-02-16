@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // Output directory for compiled JS files
+    "rootDir": ".", // Project root
+    "strict": true, // Strict mode for better type-checking
+    "module": "CommonJS", // Module system used by Node.js
+    "target": "ES6" // Target JavaScript version
+  },
+  "include": [
+    "src/**/*.ts", // Include all files in src
+    "__tests__/**/*.ts" // Include all test files in __tests__
+  ],
+  "exclude": [
+    "node_modules", // Exclude node_modules folder
+    "dist" // Exclude dist folder
+  ]
+}
