@@ -4,7 +4,8 @@
     "rootDir": ".", // Project root
     "strict": true, // Strict mode for better type-checking
     "module": "CommonJS", // Module system used by Node.js
-    "target": "ES6" // Target JavaScript version
+    "target": "ES6" ,// Target JavaScript version,
+    "esModuleInterop": true
   },
   "include": [
     "src/**/*.ts", // Include all files in src
